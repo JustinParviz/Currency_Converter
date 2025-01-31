@@ -9,7 +9,6 @@ const BASE_URL = `https://api.exchangeratesapi.io/v1/latest?access_key=${API_KEY
 
 function App() {
   const [currencyOptions, setCurrencyOptions] = useState([])
-  console.log(currencyOptions)
 
   useEffect(() => {
     fetch(BASE_URL)
