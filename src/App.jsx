@@ -3,7 +3,7 @@ import './App.css';
 import CurrencyRow from './CurrencyRow';
 
 
-const API_KEY = "c40dd10313559f62615f884eec495fa8";
+const API_KEY = "39fe767f1ce91d0d756fea9a1a5e9e96";
 const BASE_URL = `https://api.exchangeratesapi.io/v1/latest?access_key=${API_KEY}`;
 
 
